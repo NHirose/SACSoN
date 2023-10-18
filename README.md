@@ -71,15 +71,10 @@ Citation
 
 If you use SACSoN's software or database, please cite:
 
-@article{hirose2023sacson,
-
-  title={SACSoN: Scalable Autonomous Data Collection for Social Navigation},
-  
-  author={Hirose, Noriaki and Shah, Dhruv and Sridhar, Ajay and Levine, Sergey},
-  
-  journal={arXiv preprint arXiv:2306.01874},
-  
-  year={2023}
-  
+@article{hirose2023sacson,  
+  title={SACSoN: Scalable Autonomous Data Collection for Social Navigation},  
+  author={Hirose, Noriaki and Shah, Dhruv and Sridhar, Ajay and Levine, Sergey},  
+  journal={arXiv preprint arXiv:2306.01874},  
+  year={2023}  
 }
 
