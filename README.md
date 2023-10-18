@@ -52,7 +52,7 @@ Here, --robot_radius" is the robot radius to consider the size of robot itself f
 #### Step5-2: Runing SACSoN with sample data (without ROS)
 We can run our control policy using the sample data without ROS.
 
-python3 sacson.py --robot_radius 0.5
+python3 sacson_sample.py --robot_radius 0.5
 
 License
 =================
