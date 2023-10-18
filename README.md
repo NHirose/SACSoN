@@ -42,14 +42,14 @@ If you use Ricoh Theta S, please check [our previous work](https://github.com/NH
 SACSoN generates the velocity commands to go to the goal position from the history of observations and subgoal image. Our code subscribes the subgoal image as "/topic_name_goal_image".
 By updating the subgoal image, you can control the robot toward the far goal position.
 
-#### Step5: Runing SACSoN on ROS
+#### Step5-1: Runing SACSoN on ROS
 We can run our control policy as follows.
 
 python3 sacson.py --robot_radius 0.5
 
 Here, --robot_radius" is the robot radius to consider the size of robot itself for collision avoidance. Our code publishs the velocity commands as "/cmd_vel".
 
-#### Step: Runing SACSoN with sample data
+#### Step5-2: Runing SACSoN with sample data (without ROS)
 We can run our control policy using the sample data without ROS.
 
 python3 sacson.py --robot_radius 0.5
@@ -72,9 +72,14 @@ Citation
 If you use SACSoN's software or database, please cite:
 
 @article{hirose2023sacson,
+
   title={SACSoN: Scalable Autonomous Data Collection for Social Navigation},
+  
   author={Hirose, Noriaki and Shah, Dhruv and Sridhar, Ajay and Levine, Sergey},
+  
   journal={arXiv preprint arXiv:2306.01874},
+  
   year={2023}
+  
 }
 
