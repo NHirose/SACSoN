@@ -56,7 +56,7 @@ python3 sacson.py --robot_radius 0.5
 Here, --robot_radius" is the robot radius to consider the size of robot itself for collision avoidance. Our code publishs the velocity commands as "/cmd_vel".
 
 #### Step5-2: Runing SACSoN with sample data (without ROS)
-We can run our control policy using the sample data without ROS.
+We can run our control policy using the sample data without ROS. You can run our trained control policy and visualize the generated trajectories like the figure below. In this code, we run the pedestrians' dynamic forward model to estimate the counterfactual perturbation. although the subgoal position is the front right side, our control policy generates the velocity command to go straight ahead (not toward the front right), because the pedestrian is comming from the behind the robot and will walk through the right side. If the robot generates the velocity command directly toward the goal position, the counterfactual perturbation (trajectory difference between orange and pink lines) will be larger.
 
 python3 sacson_sample.py --robot_radius 0.5
 
