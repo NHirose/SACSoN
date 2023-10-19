@@ -9,7 +9,11 @@ Please see the [website](https://sites.google.com/view/SACSoN-review) for more t
 **[Noriaki Hirose](https://sites.google.com/view/noriaki-hirose/), [Dhruv Shah](https://people.eecs.berkeley.edu/~shah/), Ajay Sridhar, and [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/?_ga=2.182963686.1720382867.1664319155-2139079238.1651157950)**
 
 
-#### [HuRoN dataset](https://sites.google.com/view/sacson-review/huron-dataset?authuser=0),  [Trained model](https://drive.google.com/drive/folders/1jzSjj63I0NxdlfG0Js5oZ7GWyh30eYrb?usp=sharing)
+#### Dataset
+**[HuRoN dataset](https://sites.google.com/view/sacson-review/huron-dataset?authuser=0)**
+
+#### Trained model
+**[Trained model](https://drive.google.com/drive/folders/1jzSjj63I0NxdlfG0Js5oZ7GWyh30eYrb?usp=sharing)**
 
 System Requirement
 =================
