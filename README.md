@@ -60,6 +60,8 @@ We can run our control policy using the sample data without ROS.
 
 python3 sacson_sample.py --robot_radius 0.5
 
+![plot](./sample/sample_image.png)
+
 License
 =================
 The MIT License
